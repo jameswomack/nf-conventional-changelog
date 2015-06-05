@@ -116,7 +116,7 @@ describe('Writer', function() {
       var writer = setup('package.json');
 
       writer.section('Additions', section);
-      expect(lines()[3]).to.equal('  * added foo-ability ([0](https://github.com/ajoslin/conventional-changelog/commit/0), closes [#1](https://github.com/ajoslin/conventional-changelog/issues/1))');
+      expect(lines()[3]).to.equal('  * added foo-ability ([0](https://github.com/jameswomack/nf-conventional-changelog/commit/0), closes [#1](https://github.com/jameswomack/nf-conventional-changelog/issues/1))');
     });
     it('should find package.json and parse non github url correctly', function() {
       var writer = setup('pkg');

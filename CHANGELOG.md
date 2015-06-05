@@ -1,11 +1,11 @@
-<a name"0.0.17"></a>
+<a name="0.0.17"></a>
 ### 0.0.17 (2015-04-03)
 
 
 #### Bump deps
 
 
-<a name"0.0.16"></a>
+<a name="0.0.16"></a>
 ### 0.0.16 (2015-03-19)
 
 
@@ -14,7 +14,7 @@
 * **git:** generate the correct cmd of git log when there is no tags ([dcd7551f](https://github.com/ajoslin/conventional-changelog/commit/dcd7551f), closes [#47](https://github.com/ajoslin/conventional-changelog/issues/47), [#48](https://github.com/ajoslin/conventional-changelog/issues/48))
 
 
-<a name"0.0.15"></a>
+<a name="0.0.15"></a>
 ### 0.0.15 (2015-03-19)
 
 
@@ -23,7 +23,7 @@
 * **log:** correct out put for `options.from` and `options.to` ([31ddb112](https://github.com/ajoslin/conventional-changelog/commit/31ddb112), closes [#47](https://github.com/ajoslin/conventional-changelog/issues/47))
 
 
-<a name"0.0.14"></a>
+<a name="0.0.14"></a>
 ### 0.0.14 (2015-03-14)
 
 
@@ -32,7 +32,7 @@
 * **writeLog:** fix require statement for Writer ([a478f806](https://github.com/ajoslin/conventional-changelog/commit/a478f806))
 
 
-<a name"0.0.13"></a>
+<a name="0.0.13"></a>
 ### 0.0.13 (2015-03-13)
 
 
