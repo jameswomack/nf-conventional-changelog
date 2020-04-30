@@ -5,15 +5,6 @@ var writeLog = require('./lib/writeLog');
 var extend = require('lodash').assign;
 
 function generate(options, done) {
-  function getChangelogCommits() {
-    git.getCommits(options, function(err, commits) {
-      if (err) {
-        return done('Failed to read git log.\n' + err);
-      }
-      writeChangelog(commits);
-    });
-  }
-
   function writeChangelog(commits) {
     options.log('Parsed %d commits.', commits.length);
     writeLog(commits, options, function(err, changelog) {
@@ -33,6 +24,15 @@ function generate(options, done) {
       } else {
         done(null, changelog);
       }
+    });
+  }
+
+  function getChangelogCommits() {
+    git.getCommits(options, function(err, commits) {
+      if (err) {
+        return done('Failed to read git log.\n' + err);
+      }
+      writeChangelog(commits);
     });
   }
 

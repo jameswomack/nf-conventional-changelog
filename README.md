@@ -6,7 +6,7 @@
 ## Install
 
 ```sh
-$ npm install conventional-changelog
+$ npm install nf-conventional-changelog
 ```
 
 - [Synopsis of Conventions in CONVENTIONS.md](https://github.com/ajoslin/conventional-changelog/blob/master/CONVENTIONS.md)
@@ -17,7 +17,7 @@ Adapted from code originally written by @vojtajina and @btford in [grunt-convent
 
 ## Example output
 
-- https://github.com/ajoslin/conventional-changelog/blob/master/CHANGELOG.md
+- https://github.com/jameswomack/nf-conventional-changelog/blob/master/CHANGELOG.md
 - https://github.com/karma-runner/karma/blob/master/CHANGELOG.md
 
 
@@ -86,11 +86,11 @@ By default, calls the callback with a string containing a changelog from the pre
 BSD
 
 
-[npm-image]: https://badge.fury.io/js/conventional-changelog.svg
-[npm-url]: https://npmjs.org/package/conventional-changelog
-[travis-image]: https://travis-ci.org/ajoslin/conventional-changelog.svg?branch=master
-[travis-url]: https://travis-ci.org/ajoslin/conventional-changelog
-[daviddm-image]: https://david-dm.org/ajoslin/conventional-changelog.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/ajoslin/conventional-changelog
-[coveralls-image]: https://coveralls.io/repos/ajoslin/conventional-changelog/badge.svg
-[coveralls-url]: https://coveralls.io/r/ajoslin/conventional-changelog
+[npm-image]: https://badge.fury.io/js/nf-conventional-changelog.svg
+[npm-url]: https://npmjs.org/package/nf-conventional-changelog
+[travis-image]: https://travis-ci.org/jameswomack/nf-conventional-changelog.svg?branch=master
+[travis-url]: https://travis-ci.org/jameswomack/nf-conventional-changelog
+[daviddm-image]: https://david-dm.org/jameswomack/nf-conventional-changelog.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/jameswomack/nf-conventional-changelog
+[coveralls-image]: https://coveralls.io/repos/jameswomack/nf-conventional-changelog/badge.svg
+[coveralls-url]: https://coveralls.io/r/jameswomack/nf-conventional-changelog
