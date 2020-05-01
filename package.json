@@ -1,6 +1,6 @@
 {
   "name": "nf-conventional-changelog",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate a changelog from git metadata, using the Netflix DSC commit conventions",
   "main": "index.js",
   "scripts": {
